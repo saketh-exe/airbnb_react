@@ -1,0 +1,68 @@
+.warpper{
+    width: fit-content;
+    box-sizing: border-box;
+   flex: 0 0 auto;
+    margin: 90px 0px 0px 5%;
+    position: relative;
+    p{
+        margin: 2px;
+        
+    }
+    p:nth-child(3){
+     
+       font-size: large;
+       font-weight: 400;
+    }
+    img{
+    width: 264px;
+    height: 353px;
+    border-radius: 20px;
+    }
+    .price{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+        p:nth-child(1){
+           
+            font-size: large;
+            font-weight: 600;
+             
+         }    
+         p:nth-child(2){
+           
+            font-size: large;
+            font-weight: 300;
+         } 
+         
+         
+    }
+        
+}
+.overlay{
+    position: absolute;
+    z-index: 100;
+    top: 2%;
+    border-radius: 4px;
+    left: 3%;
+    background-color: white;
+    padding: 4px;
+
+}
+.rating{
+    display: flex;
+    justify-content: flex-start;
+   align-items: center;
+    gap: 1%;
+    img{
+        margin: 2px;
+        width: 20px;
+        height: 20px;
+        
+       
+    }
+    
+    p{
+        color: #918E9B;
+    }
+}
